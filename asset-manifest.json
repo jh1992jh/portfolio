@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.f9cd670e.chunk.css",
-  "main.js": "/portfolio/static/js/main.b339f687.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.b339f687.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.fc482493.chunk.css",
+  "main.js": "/portfolio/static/js/main.f62052c7.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.f62052c7.chunk.js.map",
   "static/js/1.2fde2344.chunk.js": "/portfolio/static/js/1.2fde2344.chunk.js",
   "static/js/1.2fde2344.chunk.js.map": "/portfolio/static/js/1.2fde2344.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -31,8 +31,8 @@
   "static/media/smp-Desktop-1.svg": "/portfolio/static/media/smp-Desktop-1.b0a8548a.svg",
   "static/media/logo.svg": "/portfolio/static/media/logo.9a5a60fa.svg",
   "static/media/myownpic.jpg": "/portfolio/static/media/myownpic.6536af44.jpg",
-  "static/css/main.f9cd670e.chunk.css.map": "/portfolio/static/css/main.f9cd670e.chunk.css.map",
+  "static/css/main.fc482493.chunk.css.map": "/portfolio/static/css/main.fc482493.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.dcc1aacb4098e3a9a4af5b0d79cddf59.js": "/portfolio/precache-manifest.dcc1aacb4098e3a9a4af5b0d79cddf59.js",
+  "precache-manifest.2eb20fbe176ffb0310c9a6d21e3464b3.js": "/portfolio/precache-manifest.2eb20fbe176ffb0310c9a6d21e3464b3.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
