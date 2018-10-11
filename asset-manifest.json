@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio/static/css/main.fc482493.chunk.css",
-  "main.js": "/portfolio/static/js/main.6c08b898.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.6c08b898.chunk.js.map",
-  "static/js/1.2fde2344.chunk.js": "/portfolio/static/js/1.2fde2344.chunk.js",
-  "static/js/1.2fde2344.chunk.js.map": "/portfolio/static/js/1.2fde2344.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.05eb345e.chunk.css",
+  "main.js": "/portfolio/static/js/main.f15ca8de.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.f15ca8de.chunk.js.map",
+  "static/js/1.523b3b26.chunk.js": "/portfolio/static/js/1.523b3b26.chunk.js",
+  "static/js/1.523b3b26.chunk.js.map": "/portfolio/static/js/1.523b3b26.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/dbas-desktop-1.svg": "/portfolio/static/media/dbas-desktop-1.9ffa8c6b.svg",
@@ -31,8 +31,8 @@
   "static/media/smp-Desktop-1.svg": "/portfolio/static/media/smp-Desktop-1.b0a8548a.svg",
   "static/media/logo.svg": "/portfolio/static/media/logo.9a5a60fa.svg",
   "static/media/myownpic.jpg": "/portfolio/static/media/myownpic.6536af44.jpg",
-  "static/css/main.fc482493.chunk.css.map": "/portfolio/static/css/main.fc482493.chunk.css.map",
+  "static/css/main.05eb345e.chunk.css.map": "/portfolio/static/css/main.05eb345e.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.7eec05542655e34b3f0955b8a8feb205.js": "/portfolio/precache-manifest.7eec05542655e34b3f0955b8a8feb205.js",
+  "precache-manifest.92be05f4bca78f355cec35f35aa7d7eb.js": "/portfolio/precache-manifest.92be05f4bca78f355cec35f35aa7d7eb.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
