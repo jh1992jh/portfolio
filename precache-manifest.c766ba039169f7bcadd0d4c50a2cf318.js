@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/pbIpadFrame1.9ce251b0.svg"
   },
   {
-    "revision": "f15ca8de2811df6b2849",
-    "url": "/portfolio/static/css/main.05eb345e.chunk.css"
+    "revision": "09427f73a12bedcb8939",
+    "url": "/portfolio/static/css/main.002dca26.chunk.css"
   },
   {
     "revision": "523b3b2635e11b03a2f1",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/pbIphoneFrame1.9a71a64b.svg"
   },
   {
-    "revision": "f15ca8de2811df6b2849",
-    "url": "/portfolio/static/js/main.f15ca8de.chunk.js"
+    "revision": "09427f73a12bedcb8939",
+    "url": "/portfolio/static/js/main.09427f73.chunk.js"
   },
   {
     "revision": "95892e4334d4a7b745c13963f1ab981b",
@@ -84,28 +84,28 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/nav-arrow.fa397295.svg"
   },
   {
-    "revision": "dcf24a7adf0e713d6ff2bab1b35b5de5",
-    "url": "/portfolio/static/media/rlp-desktop-1.dcf24a7a.svg"
+    "revision": "c4bca2525366ba269d39b0b285b07cc6",
+    "url": "/portfolio/static/media/rlp-desktop-1.c4bca252.png"
   },
   {
-    "revision": "9ffa8c6be9e200149861e19c5becef3f",
-    "url": "/portfolio/static/media/dbas-desktop-1.9ffa8c6b.svg"
+    "revision": "9ad95bdd0a8857ec1166a3361b17d64a",
+    "url": "/portfolio/static/media/dbas-desktop-1.9ad95bdd.png"
   },
   {
-    "revision": "8aea485cc0a7542b8250a1517a0101c6",
-    "url": "/portfolio/static/media/sd-desktop-1.8aea485c.svg"
+    "revision": "fbf85ee5ef35ead2f290daefaef3046d",
+    "url": "/portfolio/static/media/sd-desktop-1.fbf85ee5.png"
   },
   {
-    "revision": "a0edc1f9e5f14cd5eb29389ea982419b",
-    "url": "/portfolio/static/media/sf-desktop-1.a0edc1f9.svg"
+    "revision": "ed060a1645daac3761c1068c2a0a978b",
+    "url": "/portfolio/static/media/sf-desktop-1.ed060a16.png"
   },
   {
-    "revision": "9c7aafdf122ba6ecdc5db92f8d32eee7",
-    "url": "/portfolio/static/media/pb-desktop-1.9c7aafdf.svg"
+    "revision": "f599316589e2c9c597e70bfdc0f57da5",
+    "url": "/portfolio/static/media/pb-desktop-1.f5993165.png"
   },
   {
-    "revision": "b0a8548a388d27fafcd448cf9c264a84",
-    "url": "/portfolio/static/media/smp-Desktop-1.b0a8548a.svg"
+    "revision": "0d7741085b90b6362da319fb4259b1eb",
+    "url": "/portfolio/static/media/smp-Desktop-1.0d774108.png"
   },
   {
     "revision": "9a5a60fa3ba7776e0fa38b9e6a9fb3ea",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/myownpic.6536af44.jpg"
   },
   {
-    "revision": "40d89b26dd1aa921fc90ac8e924f05ea",
+    "revision": "1b0445fe30d74ace2012e2fcbf809a53",
     "url": "/portfolio/index.html"
   }
 ];
