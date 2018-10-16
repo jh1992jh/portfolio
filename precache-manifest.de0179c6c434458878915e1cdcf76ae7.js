@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/pbIpadFrame1.9ce251b0.svg"
   },
   {
-    "revision": "90cb9282b3c144bc443e",
-    "url": "/portfolio/static/css/main.002dca26.chunk.css"
+    "revision": "83a5c05992f5ef37fb57",
+    "url": "/portfolio/static/css/main.d258ab84.chunk.css"
   },
   {
     "revision": "523b3b2635e11b03a2f1",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/pbIphoneFrame1.9a71a64b.svg"
   },
   {
-    "revision": "90cb9282b3c144bc443e",
-    "url": "/portfolio/static/js/main.90cb9282.chunk.js"
+    "revision": "83a5c05992f5ef37fb57",
+    "url": "/portfolio/static/js/main.83a5c059.chunk.js"
   },
   {
     "revision": "95892e4334d4a7b745c13963f1ab981b",
@@ -96,8 +96,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/sd-desktop-1.fbf85ee5.png"
   },
   {
-    "revision": "ed060a1645daac3761c1068c2a0a978b",
-    "url": "/portfolio/static/media/sf-desktop-1.ed060a16.png"
+    "revision": "1541ec306ee0ef8d3308b631c9d74223",
+    "url": "/portfolio/static/media/sf-desktop-2.1541ec30.png"
   },
   {
     "revision": "f599316589e2c9c597e70bfdc0f57da5",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/myownpic.6536af44.jpg"
   },
   {
-    "revision": "01bc382e19018b2439ea96a9b684a296",
+    "revision": "601a4ff941a04f6b5a82457f3816bcce",
     "url": "/portfolio/index.html"
   }
 ];
