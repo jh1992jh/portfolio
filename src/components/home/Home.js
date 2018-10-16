@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Modal from '../modal/Modal';
 import ProjectCardContainer from '../projectCardContainer/ProjectCardContainer';
 import ProjectCard from '../projectCard/ProjectCard';
-import { images } from '../../images';
+import { projectCardImages} from '../../images';
 
 
 
@@ -10,7 +10,8 @@ import { images } from '../../images';
 
 class Home extends Component {
  state = {
-   showModal: null
+   showModal: null,
+   loading: false
  }
 
  componentDidMount() { 
@@ -19,6 +20,8 @@ class Home extends Component {
      this.setState({showModal: true});
    } else {
      this.setState({showModal: false})
+     this.setState({loading: true})
+     setTimeout(this.setState({loading: false}),100)
    }
  }
 
@@ -27,20 +30,59 @@ class Home extends Component {
    localStorage.setItem('modalShown', 'true');
  }
   render() {
-    const { showModal } = this.state;
+    const { showModal, loading } = this.state;
+    const projectCardData = [
+      {
+        projectURL: '/socialfeed',
+        projectImage: projectCardImages.sfDesktop1,
+        projectTitle: 'Social Feed'
+      },
+      {
+        projectURL: '/sassy-music-player',
+        projectImage: projectCardImages.smpDesktop1,
+        projectTitle: 'Sassy-musicplayer'
+      },
+      {
+        projectURL: '/simply-do',
+        projectImage: projectCardImages.sdDesktop1,
+        projectTitle: 'Simply Do'
+      },
+      {
+        projectURL: '/dont-be-a-square',
+        projectImage: projectCardImages.dbasDesktop1,
+        projectTitle: 'Dont be a SQUARE'
+      },
+      {
+        projectURL: '/react-landing-page',
+        projectImage: projectCardImages.rlpDesktop1,
+        projectTitle: 'React Landing Page'
+      },
+      {
+        projectURL: '/punkbeer',
+        projectImage: projectCardImages.pbDesktop1,
+        projectTitle: 'Punk Beer'
+      },
+    ]
 
-    return showModal ? <Modal closeModal={this.closeModal} />  : (
-      <div className="home">
+    let outputContent;
+
+    if(showModal) {
+     outputContent = <Modal closeModal={this.closeModal} /> 
+    } else if (loading) {
+      outputContent = (<div className="home">
+        <h3 className="loading">loading</h3>
+      </div>)
+    } else {
+      outputContent = (<div className="home">
       <ProjectCardContainer>
-      <ProjectCard projectURL="/socialfeed" projectImage={images.sfDesktop1} projectTitle="Social Feed" />
-      <ProjectCard projectURL="/sassy-music-player" projectImage={images.smpDesktop1} projectTitle="Sassy Music Player" />    
-      <ProjectCard projectURL="/simply-do" projectImage={images.sdDesktop1} projectTitle="Simply DO" />   
-      <ProjectCard projectURL="/dont-be-a-square" projectImage={images.dbasDesktop1} projectTitle="Don't be a SQUARE" />
-      <ProjectCard projectURL="/react-landing-page" projectImage={images.rlpDesktop1} projectTitle="React Landing Page" />
-      <ProjectCard projectURL="/punkbeer" projectImage={images.pbDesktop1} projectTitle="PunkBeer" />
+        {projectCardData.map(project => (
+          <ProjectCard projectImage={project.projectImage} projectURL={project.projectURL} projectTitle={project.projectTitle} key={project.projectTitle} />
+        ))}
       </ProjectCardContainer>
-      </div>
-    );
+      </div>)
+    }
+
+    return outputContent;
   }
 }
 

@@ -119,6 +119,13 @@ button {
 }
 /* HOME STYLES */
 
+
+.home .loading {
+  text-align: center;
+  margin: 20% 0;
+  
+}
+
 /* MODAL STYLES*/
 .modalBackground {
   position: fixed;
@@ -207,11 +214,12 @@ button {
 
 .projectCard h3 {
   margin: 0;
+  color: #323232;
 }
 
 .projectCard img {
-  max-width: 550px;
-  height: auto;
+  max-width: auto;
+  height: 290px;
   z-index: 10;
 }
 

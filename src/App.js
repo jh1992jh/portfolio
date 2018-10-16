@@ -3,7 +3,7 @@ import { Router, Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import ProjectView from './components/projectView/ProjectView';
-import { images } from './images';
+import { projectViewimages, otherImages } from './images';
 import { rlpProjectImages, dbasProjectImages, sdProjectImages, sfProjectImages, pbProjectImages, smpProjectImages } from './images';
 import NavDropdownMenu from './components/navbars/NavDropdownMenu';
 import createHashHistory from 'history/createHashHistory';
@@ -22,7 +22,7 @@ class App extends Component {
     return (
       <Router history={hashHistory}>
       <div className="portfolio">
-      <img src={images.logo} alt="logo" className="logo" />
+      <img src={otherImages.logo} alt="logo" className="logo" />
       <NavDropdownMenu />
       <Route exact path="/about" component={About} /> 
       <Route exact path="/" component={Home} />
@@ -30,9 +30,9 @@ class App extends Component {
       <Route exact path="/socialfeed" render={(props) => (
         <ProjectView
         {...props}
-        desktopImg={images.sfDesktopFrame}
-        iPadImg={images.sfIpadFrame}
-        iPhoneImg={images.sfIphoneFrame}
+        desktopImg={projectViewimages.sfDesktopFrame}
+        iPadImg={projectViewimages.sfIpadFrame}
+        iPhoneImg={projectViewimages.sfIphoneFrame}
         projectImages={sfProjectImages} 
         projectTitle="SocialFeed"
         projectDescription="A social media app with mobile first design. I got the inspiration for this project from Instagram. The project uses JWT tokes for user authentication. Users are able to create their own profiles and edit them. Follow other profiles and be followed. Post images with filters, post stories, like posts, comment to posts, delete their own posts and comments. The project is built with the MERN stack aka MongoDB, Express, React&Redux and NodeJS"
@@ -43,9 +43,9 @@ class App extends Component {
       <Route exact path="/react-landing-page" render={(props) => (
         <ProjectView
         {...props}
-        iPhoneImg={images.rlpIphoneFrame} 
-        iPadImg={images.rlpIpadFrame}
-        desktopImg={images.rlpDesktopFrame}
+        iPhoneImg={projectViewimages.rlpIphoneFrame} 
+        iPadImg={projectViewimages.rlpIpadFrame}
+        desktopImg={projectViewimages.rlpDesktopFrame}
         projectImages={rlpProjectImages} 
         projectTitle="React Landing Page"
         projectDescription="Landing page built with ReactJS taking advantage many features of ReactJS like building reusable components.
@@ -57,7 +57,7 @@ class App extends Component {
       <Route exact path="/dont-be-a-square" render={(props) => (
         <ProjectView
         {...props}
-        desktopImg={images.dbasDesktopFrame}
+        desktopImg={projectViewimages.dbasDesktopFrame}
         projectImages={dbasProjectImages}  
         iPadImg={null}
         iPhoneImg={null}
@@ -70,9 +70,9 @@ class App extends Component {
       <Route exact path="/simply-do" render={(props) => (
         <ProjectView
         {...props}
-        desktopImg={images.sdDesktopFrame} 
-        iPadImg={images.sdIpadFrame}
-        iPhoneImg={images.sdIphoneFrame}
+        desktopImg={projectViewimages.sdDesktopFrame} 
+        iPadImg={projectViewimages.sdIpadFrame}
+        iPhoneImg={projectViewimages.sdIphoneFrame}
         projectImages={sdProjectImages} 
         projectTitle="Simply DO"
         projectDescription="Yes, i know what you might be thinking, another todo app. Don't we already have enough of those already? This one steps it up a notch though. This isn't your regular todo app. It's a todo app with user authentication using JWT tokens, functionality to save your todos to a database, mark them as done and see your all past done todos with the exact dates you completed them. It's also responsive to different screensizes like mobile, tablets and laptops etc..."
@@ -83,9 +83,9 @@ class App extends Component {
       <Route exact path="/punkbeer" render={(props) => (
         <ProjectView
         {...props}
-        desktopImg={images.pbDesktopFrame}
-        iPadImg={images.pbIpadFrame}
-        iPhoneImg={images.pbIphoneFrame}
+        desktopImg={projectViewimages.pbDesktopFrame}
+        iPadImg={projectViewimages.pbIpadFrame}
+        iPhoneImg={projectViewimages.pbIphoneFrame}
         projectImages={pbProjectImages} 
         projectTitle="PunkBeer"
         projectDescription="A React app to that uses the Punk API to fetch info about beers. It also displays them and you are able to favorite beers, see your favorited beers, delete a beer from the favorites. The app also has modals that have been built from scratch without using any frameworks or libraries. The app is also responsive to different screensizes like mobile, tablest and desktops etc..."
@@ -96,9 +96,9 @@ class App extends Component {
       <Route exact path="/sassy-music-player" render={(props) => (
         <ProjectView
         {...props}
-        desktopImg={images.smpDesktopFrame}
-        iPadImg={images.smpIpadFrame}
-        iPhoneImg={images.smpIphoneFrame}
+        desktopImg={projectViewimages.smpDesktopFrame}
+        iPadImg={projectViewimages.smpIpadFrame}
+        iPhoneImg={projectViewimages.smpIphoneFrame}
         projectImages={smpProjectImages} 
         projectTitle="Sassy Music Player"
         projectDescription="Now that React supports Sass out of the box i decided to do a React app using Sass. This project is a music player written with mobile first approach with all the basic functionality like rewinding, changing tracks, being able to play and pause tracks etc... All the icons in the app are also self-made with Figma"

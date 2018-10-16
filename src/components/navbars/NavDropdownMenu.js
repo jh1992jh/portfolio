@@ -16,7 +16,7 @@ class NavDropdownMenu extends Component {
 
     return (
         <Fragment>
-        <div  className="menu" onMouseEnter={this.toggleNav} onClick={this.toggleNav}>
+        <div  className="menu" onClick={this.toggleNav}>
         <i className="fas fa-bars" />
         </div>
         {navOpen ? (

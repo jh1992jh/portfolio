@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { images } from '../../images';
+import { otherImages } from '../../images';
 
 class About extends Component {
     state = {
@@ -15,7 +15,7 @@ class About extends Component {
       <div className="about">
         <div className="infoContainer">
         <div className="img">
-        <img src={images.myownpic} alt="me"/>
+        <img src={otherImages.myownpic} alt="me"/>
         <a href="https://github.com/jh1992jh" target="_blank"  rel="noopener noreferrer">
             <button>
                 GitHub <i className="fab fa-github" />
